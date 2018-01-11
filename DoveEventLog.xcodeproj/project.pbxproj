@@ -7,21 +7,158 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F0AB3A951F7DEC2400C203D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AB3A941F7DEC2400C203D0 /* AppDelegate.swift */; };
-		F0AB3A971F7DEC2400C203D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AB3A961F7DEC2400C203D0 /* ViewController.swift */; };
+		F03DDF4C1FE74C7C000EF244 /* WUADStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03DDF4B1FE74C7C000EF244 /* WUADStructs.swift */; };
+		F03DDF4E1FE8978E000EF244 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03DDF4D1FE8978E000EF244 /* DataManager.swift */; };
+		F04628551F9E65CF00B96A1F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04628541F9E65CF00B96A1F /* HomeViewController.swift */; };
+		F077F4F21FD5A6C100D5A980 /* DatePopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F077F4F11FD5A6C100D5A980 /* DatePopupViewController.swift */; };
+		F08B5BE21F81EEF7005A8563 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08B5BE11F81EEF7005A8563 /* AppDelegate.swift */; };
+		F098568E1F7EF1560083AB38 /* FuneralInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F098568B1F7EF1550083AB38 /* FuneralInfoViewController.swift */; };
+		F098568F1F7EF1560083AB38 /* FuneralLandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F098568C1F7EF1550083AB38 /* FuneralLandViewController.swift */; };
+		F09856901F7EF1560083AB38 /* FuneralEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F098568D1F7EF1550083AB38 /* FuneralEditViewController.swift */; };
 		F0AB3A9A1F7DEC2400C203D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0AB3A981F7DEC2400C203D0 /* Main.storyboard */; };
-		F0AB3A9C1F7DEC2400C203D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0AB3A9B1F7DEC2400C203D0 /* Assets.xcassets */; };
 		F0AB3A9F1F7DEC2400C203D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0AB3A9D1F7DEC2400C203D0 /* LaunchScreen.storyboard */; };
+		F0AB3AA71F7DF73D00C203D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0AB3AA61F7DF70300C203D0 /* Images.xcassets */; };
+		F0AB3AC91F7DF9E100C203D0 /* EventInfoEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AB3AA81F7DF9DE00C203D0 /* EventInfoEditViewController.swift */; };
+		F0AB3ACA1F7DF9E100C203D0 /* BirdEggInvVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AB3AA91F7DF9DE00C203D0 /* BirdEggInvVC.swift */; };
+		F0AB3ACB1F7DF9E100C203D0 /* NewBirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AB3AAA1F7DF9DE00C203D0 /* NewBirdViewController.swift */; };
+		F0AB3ACC1F7DF9E100C203D0 /* DoveEggsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AB3AAB1F7DF9DE00C203D0 /* DoveEggsViewController.swift */; };
+		F0AB3ACD1F7DF9E100C203D0 /* FrontBirdEgg.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AB3AAC1F7DF9DE00C203D0 /* FrontBirdEgg.swift */; };
+		F0AB3ACE1F7DF9E100C203D0 /* WeddingVenueInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AB3AAD1F7DF9DE00C203D0 /* WeddingVenueInfoViewController.swift */; };
+		F0AB3ACF1F7DF9E100C203D0 /* SunShineTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AB3AAE1F7DF9DE00C203D0 /* SunShineTime.swift */; };
+		F0AB3AD01F7DF9E100C203D0 /* birdwitheggs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AB3AAF1F7DF9DE00C203D0 /* birdwitheggs.swift */; };
+		F0AB3AD21F7DF9E100C203D0 /* KIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AB3AB11F7DF9DF00C203D0 /* KIndexViewController.swift */; };
+		F0AB3AD31F7DF9E100C203D0 /* WeddingEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AB3AB21F7DF9DF00C203D0 /* WeddingEditViewController.swift */; };
+		F0AB3AD41F7DF9E100C203D0 /* Titleimage.png in Resources */ = {isa = PBXBuildFile; fileRef = F0AB3AB31F7DF9DF00C203D0 /* Titleimage.png */; };
+		F0AB3AD51F7DF9E100C203D0 /* venueMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AB3AB41F7DF9DF00C203D0 /* venueMapViewController.swift */; };
+		F0AB3AD61F7DF9E100C203D0 /* DoveInventoryTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AB3AB51F7DF9DF00C203D0 /* DoveInventoryTable.swift */; };
+		F0AB3AD71F7DF9E100C203D0 /* trainschedcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AB3AB61F7DF9DF00C203D0 /* trainschedcell.swift */; };
+		F0AB3AD81F7DF9E100C203D0 /* DoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AB3AB71F7DF9DF00C203D0 /* DoveViewController.swift */; };
+		F0AB3AD91F7DF9E100C203D0 /* EditEggViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AB3AB81F7DF9DF00C203D0 /* EditEggViewController.swift */; };
+		F0AB3ADA1F7DF9E100C203D0 /* WeddingLandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AB3AB91F7DF9DF00C203D0 /* WeddingLandViewController.swift */; };
+		F0AB3ADB1F7DF9E100C203D0 /* EditBirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AB3ABA1F7DF9DF00C203D0 /* EditBirdViewController.swift */; };
+		F0AB3ADC1F7DF9E100C203D0 /* WeddingInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AB3ABB1F7DF9E000C203D0 /* WeddingInfoViewController.swift */; };
+		F0AB3ADD1F7DF9E100C203D0 /* WUADBirdsWithEggs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AB3ABC1F7DF9E000C203D0 /* WUADBirdsWithEggs.swift */; };
+		F0AB3ADE1F7DF9E100C203D0 /* birdies.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AB3ABD1F7DF9E000C203D0 /* birdies.swift */; };
+		F0AB3ADF1F7DF9E100C203D0 /* TrainReleaseSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AB3ABE1F7DF9E000C203D0 /* TrainReleaseSchedule.swift */; };
+		F0AB3AE01F7DF9E100C203D0 /* WeddingEditVenueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AB3ABF1F7DF9E000C203D0 /* WeddingEditVenueViewController.swift */; };
+		F0AB3AE11F7DF9E100C203D0 /* WUADCustomCellAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AB3AC01F7DF9E000C203D0 /* WUADCustomCellAll.swift */; };
+		F0AB3AE21F7DF9E100C203D0 /* BirdCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AB3AC11F7DF9E000C203D0 /* BirdCommentViewController.swift */; };
+		F0AB3AE31F7DF9E100C203D0 /* EventLandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AB3AC21F7DF9E000C203D0 /* EventLandViewController.swift */; };
+		F0AB3AE41F7DF9E100C203D0 /* EventInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AB3AC31F7DF9E100C203D0 /* EventInfoViewController.swift */; };
+		F0AB3AE61F7DF9E100C203D0 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AB3AC51F7DF9E100C203D0 /* Reachability.swift */; };
+		F0AB3AE71F7DF9E100C203D0 /* solar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AB3AC61F7DF9E100C203D0 /* solar.swift */; };
+		F0AB3AE81F7DF9E100C203D0 /* TrainingReleaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AB3AC71F7DF9E100C203D0 /* TrainingReleaseVC.swift */; };
+		F0AB3AE91F7DF9E100C203D0 /* InventoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AB3AC81F7DF9E100C203D0 /* InventoryCell.swift */; };
+		F0C066B71FA152420096410D /* firstvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C066B61FA152410096410D /* firstvc.swift */; };
+		F0C985091FFDC79400167171 /* DatePopUpViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0C985071FFDC79400167171 /* DatePopUpViewController.storyboard */; };
+		F0C9850B20054B8900167171 /* CalEventMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C9850A20054B8900167171 /* CalEventMaker.swift */; };
+		F0E6368B1F912C2D00B12410 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E636751F912C2C00B12410 /* IQNSArray+Sort.swift */; };
+		F0E6368C1F912C2D00B12410 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E636761F912C2C00B12410 /* IQUIScrollView+Additions.swift */; };
+		F0E6368D1F912C2D00B12410 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E636771F912C2C00B12410 /* IQUITextFieldView+Additions.swift */; };
+		F0E6368E1F912C2D00B12410 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E636781F912C2C00B12410 /* IQUIView+Hierarchy.swift */; };
+		F0E6368F1F912C2D00B12410 /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E636791F912C2C00B12410 /* IQUIViewController+Additions.swift */; };
+		F0E636901F912C2D00B12410 /* IQUIWindow+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E6367A1F912C2C00B12410 /* IQUIWindow+Hierarchy.swift */; };
+		F0E636911F912C2D00B12410 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E6367C1F912C2C00B12410 /* IQKeyboardManagerConstants.swift */; };
+		F0E636921F912C2D00B12410 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E6367D1F912C2C00B12410 /* IQKeyboardManagerConstantsInternal.swift */; };
+		F0E636931F912C2D00B12410 /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E6367E1F912C2C00B12410 /* IQKeyboardManager.swift */; };
+		F0E636941F912C2D00B12410 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E636801F912C2C00B12410 /* IQKeyboardReturnKeyHandler.swift */; };
+		F0E636951F912C2D00B12410 /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E636821F912C2C00B12410 /* IQTextView.swift */; };
+		F0E636961F912C2D00B12410 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E636841F912C2C00B12410 /* IQBarButtonItem.swift */; };
+		F0E636971F912C2D00B12410 /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E636851F912C2C00B12410 /* IQPreviousNextView.swift */; };
+		F0E636981F912C2D00B12410 /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E636861F912C2C00B12410 /* IQTitleBarButtonItem.swift */; };
+		F0E636991F912C2D00B12410 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E636871F912C2C00B12410 /* IQToolbar.swift */; };
+		F0E6369A1F912C2D00B12410 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E636881F912C2C00B12410 /* IQUIView+IQKeyboardToolbar.swift */; };
+		F0E6369B1F912C2D00B12410 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F0E6368A1F912C2C00B12410 /* IQKeyboardManager.bundle */; };
+		F0E636AA1F92697800B12410 /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E636A01F92697800B12410 /* UIButtonX.swift */; };
+		F0E636AB1F92697800B12410 /* UIImageViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E636A11F92697800B12410 /* UIImageViewX.swift */; };
+		F0E636AC1F92697800B12410 /* UILabelX.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E636A21F92697800B12410 /* UILabelX.swift */; };
+		F0E636AD1F92697800B12410 /* UISliderX.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E636A31F92697800B12410 /* UISliderX.swift */; };
+		F0E636AE1F92697800B12410 /* UITextFieldX.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E636A41F92697800B12410 /* UITextFieldX.swift */; };
+		F0E636AF1F92697800B12410 /* UIViewAnchorPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E636A51F92697800B12410 /* UIViewAnchorPoint.swift */; };
+		F0E636B01F92697800B12410 /* UIViewControllerX.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E636A61F92697800B12410 /* UIViewControllerX.swift */; };
+		F0E636B11F92697800B12410 /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E636A71F92697800B12410 /* UIViewX.swift */; };
+		F0E636B21F92697800B12410 /* UIViewXRadialGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E636A81F92697800B12410 /* UIViewXRadialGradient.swift */; };
+		F0E636B31F92697800B12410 /* UIVisualEffectViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E636A91F92697800B12410 /* UIVisualEffectViewX.swift */; };
+		F0F68E611FA7F9E100025DDB /* frisilla.gpx in Resources */ = {isa = PBXBuildFile; fileRef = F0F68E601FA7F9E100025DDB /* frisilla.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F03DDF4B1FE74C7C000EF244 /* WUADStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WUADStructs.swift; sourceTree = "<group>"; };
+		F03DDF4D1FE8978E000EF244 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		F04628541F9E65CF00B96A1F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F077F4F11FD5A6C100D5A980 /* DatePopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePopupViewController.swift; sourceTree = "<group>"; };
+		F08B5BE11F81EEF7005A8563 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F098568B1F7EF1550083AB38 /* FuneralInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuneralInfoViewController.swift; sourceTree = "<group>"; };
+		F098568C1F7EF1550083AB38 /* FuneralLandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuneralLandViewController.swift; sourceTree = "<group>"; };
+		F098568D1F7EF1550083AB38 /* FuneralEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuneralEditViewController.swift; sourceTree = "<group>"; };
 		F0AB3A911F7DEC2400C203D0 /* DoveEventLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoveEventLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0AB3A941F7DEC2400C203D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F0AB3A961F7DEC2400C203D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F0AB3A991F7DEC2400C203D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F0AB3A9B1F7DEC2400C203D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0AB3A9E1F7DEC2400C203D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0AB3AA01F7DEC2400C203D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0AB3AA61F7DF70300C203D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F0AB3AA81F7DF9DE00C203D0 /* EventInfoEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventInfoEditViewController.swift; sourceTree = "<group>"; };
+		F0AB3AA91F7DF9DE00C203D0 /* BirdEggInvVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirdEggInvVC.swift; sourceTree = "<group>"; };
+		F0AB3AAA1F7DF9DE00C203D0 /* NewBirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewBirdViewController.swift; sourceTree = "<group>"; };
+		F0AB3AAB1F7DF9DE00C203D0 /* DoveEggsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoveEggsViewController.swift; sourceTree = "<group>"; };
+		F0AB3AAC1F7DF9DE00C203D0 /* FrontBirdEgg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontBirdEgg.swift; sourceTree = "<group>"; };
+		F0AB3AAD1F7DF9DE00C203D0 /* WeddingVenueInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeddingVenueInfoViewController.swift; sourceTree = "<group>"; };
+		F0AB3AAE1F7DF9DE00C203D0 /* SunShineTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunShineTime.swift; sourceTree = "<group>"; };
+		F0AB3AAF1F7DF9DE00C203D0 /* birdwitheggs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = birdwitheggs.swift; sourceTree = "<group>"; };
+		F0AB3AB11F7DF9DF00C203D0 /* KIndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KIndexViewController.swift; sourceTree = "<group>"; };
+		F0AB3AB21F7DF9DF00C203D0 /* WeddingEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeddingEditViewController.swift; sourceTree = "<group>"; };
+		F0AB3AB31F7DF9DF00C203D0 /* Titleimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Titleimage.png; sourceTree = "<group>"; };
+		F0AB3AB41F7DF9DF00C203D0 /* venueMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = venueMapViewController.swift; sourceTree = "<group>"; };
+		F0AB3AB51F7DF9DF00C203D0 /* DoveInventoryTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoveInventoryTable.swift; sourceTree = "<group>"; };
+		F0AB3AB61F7DF9DF00C203D0 /* trainschedcell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = trainschedcell.swift; sourceTree = "<group>"; };
+		F0AB3AB71F7DF9DF00C203D0 /* DoveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoveViewController.swift; sourceTree = "<group>"; };
+		F0AB3AB81F7DF9DF00C203D0 /* EditEggViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditEggViewController.swift; sourceTree = "<group>"; };
+		F0AB3AB91F7DF9DF00C203D0 /* WeddingLandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeddingLandViewController.swift; sourceTree = "<group>"; };
+		F0AB3ABA1F7DF9DF00C203D0 /* EditBirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditBirdViewController.swift; sourceTree = "<group>"; };
+		F0AB3ABB1F7DF9E000C203D0 /* WeddingInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeddingInfoViewController.swift; sourceTree = "<group>"; };
+		F0AB3ABC1F7DF9E000C203D0 /* WUADBirdsWithEggs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WUADBirdsWithEggs.swift; sourceTree = "<group>"; };
+		F0AB3ABD1F7DF9E000C203D0 /* birdies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = birdies.swift; sourceTree = "<group>"; };
+		F0AB3ABE1F7DF9E000C203D0 /* TrainReleaseSchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainReleaseSchedule.swift; sourceTree = "<group>"; };
+		F0AB3ABF1F7DF9E000C203D0 /* WeddingEditVenueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeddingEditVenueViewController.swift; sourceTree = "<group>"; };
+		F0AB3AC01F7DF9E000C203D0 /* WUADCustomCellAll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WUADCustomCellAll.swift; sourceTree = "<group>"; };
+		F0AB3AC11F7DF9E000C203D0 /* BirdCommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirdCommentViewController.swift; sourceTree = "<group>"; };
+		F0AB3AC21F7DF9E000C203D0 /* EventLandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventLandViewController.swift; sourceTree = "<group>"; };
+		F0AB3AC31F7DF9E100C203D0 /* EventInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventInfoViewController.swift; sourceTree = "<group>"; };
+		F0AB3AC51F7DF9E100C203D0 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		F0AB3AC61F7DF9E100C203D0 /* solar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = solar.swift; sourceTree = "<group>"; };
+		F0AB3AC71F7DF9E100C203D0 /* TrainingReleaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingReleaseVC.swift; sourceTree = "<group>"; };
+		F0AB3AC81F7DF9E100C203D0 /* InventoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryCell.swift; sourceTree = "<group>"; };
+		F0C066B61FA152410096410D /* firstvc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstvc.swift; sourceTree = "<group>"; };
+		F0C985081FFDC79400167171 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DoveEventLog/Base.lproj/DatePopUpViewController.storyboard; sourceTree = "<group>"; };
+		F0C9850A20054B8900167171 /* CalEventMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalEventMaker.swift; sourceTree = "<group>"; };
+		F0E636751F912C2C00B12410 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		F0E636761F912C2C00B12410 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		F0E636771F912C2C00B12410 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		F0E636781F912C2C00B12410 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		F0E636791F912C2C00B12410 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		F0E6367A1F912C2C00B12410 /* IQUIWindow+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIWindow+Hierarchy.swift"; sourceTree = "<group>"; };
+		F0E6367C1F912C2C00B12410 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		F0E6367D1F912C2C00B12410 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		F0E6367E1F912C2C00B12410 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManager.swift; sourceTree = "<group>"; };
+		F0E6367F1F912C2C00B12410 /* IQKeyboardManagerSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerSwift.h; sourceTree = "<group>"; };
+		F0E636801F912C2C00B12410 /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		F0E636821F912C2C00B12410 /* IQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
+		F0E636841F912C2C00B12410 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQBarButtonItem.swift; sourceTree = "<group>"; };
+		F0E636851F912C2C00B12410 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQPreviousNextView.swift; sourceTree = "<group>"; };
+		F0E636861F912C2C00B12410 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		F0E636871F912C2C00B12410 /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
+		F0E636881F912C2C00B12410 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		F0E6368A1F912C2C00B12410 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		F0E636A01F92697800B12410 /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		F0E636A11F92697800B12410 /* UIImageViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewX.swift; sourceTree = "<group>"; };
+		F0E636A21F92697800B12410 /* UILabelX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelX.swift; sourceTree = "<group>"; };
+		F0E636A31F92697800B12410 /* UISliderX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISliderX.swift; sourceTree = "<group>"; };
+		F0E636A41F92697800B12410 /* UITextFieldX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldX.swift; sourceTree = "<group>"; };
+		F0E636A51F92697800B12410 /* UIViewAnchorPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewAnchorPoint.swift; sourceTree = "<group>"; };
+		F0E636A61F92697800B12410 /* UIViewControllerX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerX.swift; sourceTree = "<group>"; };
+		F0E636A71F92697800B12410 /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		F0E636A81F92697800B12410 /* UIViewXRadialGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewXRadialGradient.swift; sourceTree = "<group>"; };
+		F0E636A91F92697800B12410 /* UIVisualEffectViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVisualEffectViewX.swift; sourceTree = "<group>"; };
+		F0F68E601FA7F9E100025DDB /* frisilla.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = frisilla.gpx; path = ../../../doveeventlogold/DoveAndEventLog/frisilla.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +172,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F03DDF4A1FE74C3C000EF244 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F03DDF4B1FE74C7C000EF244 /* WUADStructs.swift */,
+				F03DDF4D1FE8978E000EF244 /* DataManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F04628531F9E608300B96A1F /* Dove Log */ = {
+			isa = PBXGroup;
+			children = (
+				F0F68E601FA7F9E100025DDB /* frisilla.gpx */,
+				F0AB3AC11F7DF9E000C203D0 /* BirdCommentViewController.swift */,
+				F0AB3AA91F7DF9DE00C203D0 /* BirdEggInvVC.swift */,
+				F0AB3ABD1F7DF9E000C203D0 /* birdies.swift */,
+				F0AB3AAF1F7DF9DE00C203D0 /* birdwitheggs.swift */,
+				F0AB3AAB1F7DF9DE00C203D0 /* DoveEggsViewController.swift */,
+				F0AB3AB51F7DF9DF00C203D0 /* DoveInventoryTable.swift */,
+				F0AB3AB71F7DF9DF00C203D0 /* DoveViewController.swift */,
+				F0AB3ABA1F7DF9DF00C203D0 /* EditBirdViewController.swift */,
+				F0AB3AB81F7DF9DF00C203D0 /* EditEggViewController.swift */,
+				F0AB3AAC1F7DF9DE00C203D0 /* FrontBirdEgg.swift */,
+				F0AB3AC81F7DF9E100C203D0 /* InventoryCell.swift */,
+				F0AB3AB11F7DF9DF00C203D0 /* KIndexViewController.swift */,
+				F0AB3AAA1F7DF9DE00C203D0 /* NewBirdViewController.swift */,
+				F0AB3AAE1F7DF9DE00C203D0 /* SunShineTime.swift */,
+				F0AB3AC71F7DF9E100C203D0 /* TrainingReleaseVC.swift */,
+				F0AB3ABE1F7DF9E000C203D0 /* TrainReleaseSchedule.swift */,
+				F0AB3AB61F7DF9DF00C203D0 /* trainschedcell.swift */,
+				F0AB3ABC1F7DF9E000C203D0 /* WUADBirdsWithEggs.swift */,
+				F0AB3AC01F7DF9E000C203D0 /* WUADCustomCellAll.swift */,
+			);
+			path = "Dove Log";
+			sourceTree = "<group>";
+		};
 		F0AB3A881F7DEC2300C203D0 = {
 			isa = PBXGroup;
 			children = (
@@ -42,6 +215,7 @@
 				F0AB3A921F7DEC2400C203D0 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		F0AB3A921F7DEC2400C203D0 /* Products */ = {
 			isa = PBXGroup;
@@ -54,14 +228,144 @@
 		F0AB3A931F7DEC2400C203D0 /* DoveEventLog */ = {
 			isa = PBXGroup;
 			children = (
-				F0AB3A941F7DEC2400C203D0 /* AppDelegate.swift */,
-				F0AB3A961F7DEC2400C203D0 /* ViewController.swift */,
-				F0AB3A981F7DEC2400C203D0 /* Main.storyboard */,
-				F0AB3A9B1F7DEC2400C203D0 /* Assets.xcassets */,
-				F0AB3A9D1F7DEC2400C203D0 /* LaunchScreen.storyboard */,
+				F03DDF4A1FE74C3C000EF244 /* Models */,
+				F08B5BE11F81EEF7005A8563 /* AppDelegate.swift */,
+				F04628531F9E608300B96A1F /* Dove Log */,
+				F0E6369C1F91315200B12410 /* Events */,
+				F0C066B61FA152410096410D /* firstvc.swift */,
+				F0E6369D1F91316F00B12410 /* Funerals */,
+				F04628541F9E65CF00B96A1F /* HomeViewController.swift */,
+				F0AB3AA61F7DF70300C203D0 /* Images.xcassets */,
 				F0AB3AA01F7DEC2400C203D0 /* Info.plist */,
+				F0E636731F912C2B00B12410 /* IQKeyboardManagerSwift */,
+				F0AB3A9D1F7DEC2400C203D0 /* LaunchScreen.storyboard */,
+				F0AB3A981F7DEC2400C203D0 /* Main.storyboard */,
+				F0AB3AC51F7DF9E100C203D0 /* Reachability.swift */,
+				F0AB3AC61F7DF9E100C203D0 /* solar.swift */,
+				F0AB3AB31F7DF9DF00C203D0 /* Titleimage.png */,
+				F0E6369E1F9131AD00B12410 /* Weddings */,
+				F077F4F11FD5A6C100D5A980 /* DatePopupViewController.swift */,
+				F0C985071FFDC79400167171 /* DatePopUpViewController.storyboard */,
+				F0C9850A20054B8900167171 /* CalEventMaker.swift */,
 			);
 			path = DoveEventLog;
+			sourceTree = "<group>";
+		};
+		F0E636731F912C2B00B12410 /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				F0E6369F1F92697800B12410 /* DesignableX */,
+				F0E636741F912C2B00B12410 /* Categories */,
+				F0E6367B1F912C2C00B12410 /* Constants */,
+				F0E6367E1F912C2C00B12410 /* IQKeyboardManager.swift */,
+				F0E6367F1F912C2C00B12410 /* IQKeyboardManagerSwift.h */,
+				F0E636801F912C2C00B12410 /* IQKeyboardReturnKeyHandler.swift */,
+				F0E636811F912C2C00B12410 /* IQTextView */,
+				F0E636831F912C2C00B12410 /* IQToolbar */,
+				F0E636891F912C2C00B12410 /* Resources */,
+			);
+			name = IQKeyboardManagerSwift;
+			path = "../../../../Downloads/IQKeyboardManager-master/IQKeyboardManagerSwift";
+			sourceTree = "<group>";
+		};
+		F0E636741F912C2B00B12410 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F0E636751F912C2C00B12410 /* IQNSArray+Sort.swift */,
+				F0E636761F912C2C00B12410 /* IQUIScrollView+Additions.swift */,
+				F0E636771F912C2C00B12410 /* IQUITextFieldView+Additions.swift */,
+				F0E636781F912C2C00B12410 /* IQUIView+Hierarchy.swift */,
+				F0E636791F912C2C00B12410 /* IQUIViewController+Additions.swift */,
+				F0E6367A1F912C2C00B12410 /* IQUIWindow+Hierarchy.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		F0E6367B1F912C2C00B12410 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				F0E6367C1F912C2C00B12410 /* IQKeyboardManagerConstants.swift */,
+				F0E6367D1F912C2C00B12410 /* IQKeyboardManagerConstantsInternal.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		F0E636811F912C2C00B12410 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				F0E636821F912C2C00B12410 /* IQTextView.swift */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		F0E636831F912C2C00B12410 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				F0E636841F912C2C00B12410 /* IQBarButtonItem.swift */,
+				F0E636851F912C2C00B12410 /* IQPreviousNextView.swift */,
+				F0E636861F912C2C00B12410 /* IQTitleBarButtonItem.swift */,
+				F0E636871F912C2C00B12410 /* IQToolbar.swift */,
+				F0E636881F912C2C00B12410 /* IQUIView+IQKeyboardToolbar.swift */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		F0E636891F912C2C00B12410 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F0E6368A1F912C2C00B12410 /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F0E6369C1F91315200B12410 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				F0AB3AA81F7DF9DE00C203D0 /* EventInfoEditViewController.swift */,
+				F0AB3AC31F7DF9E100C203D0 /* EventInfoViewController.swift */,
+				F0AB3AC21F7DF9E000C203D0 /* EventLandViewController.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		F0E6369D1F91316F00B12410 /* Funerals */ = {
+			isa = PBXGroup;
+			children = (
+				F098568D1F7EF1550083AB38 /* FuneralEditViewController.swift */,
+				F098568B1F7EF1550083AB38 /* FuneralInfoViewController.swift */,
+				F098568C1F7EF1550083AB38 /* FuneralLandViewController.swift */,
+			);
+			path = Funerals;
+			sourceTree = "<group>";
+		};
+		F0E6369E1F9131AD00B12410 /* Weddings */ = {
+			isa = PBXGroup;
+			children = (
+				F0AB3AB41F7DF9DF00C203D0 /* venueMapViewController.swift */,
+				F0AB3ABF1F7DF9E000C203D0 /* WeddingEditVenueViewController.swift */,
+				F0AB3AB21F7DF9DF00C203D0 /* WeddingEditViewController.swift */,
+				F0AB3ABB1F7DF9E000C203D0 /* WeddingInfoViewController.swift */,
+				F0AB3AB91F7DF9DF00C203D0 /* WeddingLandViewController.swift */,
+				F0AB3AAD1F7DF9DE00C203D0 /* WeddingVenueInfoViewController.swift */,
+			);
+			path = Weddings;
+			sourceTree = "<group>";
+		};
+		F0E6369F1F92697800B12410 /* DesignableX */ = {
+			isa = PBXGroup;
+			children = (
+				F0E636A01F92697800B12410 /* UIButtonX.swift */,
+				F0E636A11F92697800B12410 /* UIImageViewX.swift */,
+				F0E636A21F92697800B12410 /* UILabelX.swift */,
+				F0E636A31F92697800B12410 /* UISliderX.swift */,
+				F0E636A41F92697800B12410 /* UITextFieldX.swift */,
+				F0E636A51F92697800B12410 /* UIViewAnchorPoint.swift */,
+				F0E636A61F92697800B12410 /* UIViewControllerX.swift */,
+				F0E636A71F92697800B12410 /* UIViewX.swift */,
+				F0E636A81F92697800B12410 /* UIViewXRadialGradient.swift */,
+				F0E636A91F92697800B12410 /* UIVisualEffectViewX.swift */,
+			);
+			path = DesignableX;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,7 +395,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Dave Stucky";
 				TargetAttributes = {
 					F0AB3A901F7DEC2400C203D0 = {
@@ -123,9 +427,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0AB3AA71F7DF73D00C203D0 /* Images.xcassets in Resources */,
+				F0F68E611FA7F9E100025DDB /* frisilla.gpx in Resources */,
+				F0E6369B1F912C2D00B12410 /* IQKeyboardManager.bundle in Resources */,
 				F0AB3A9F1F7DEC2400C203D0 /* LaunchScreen.storyboard in Resources */,
-				F0AB3A9C1F7DEC2400C203D0 /* Assets.xcassets in Resources */,
 				F0AB3A9A1F7DEC2400C203D0 /* Main.storyboard in Resources */,
+				F0AB3AD41F7DF9E100C203D0 /* Titleimage.png in Resources */,
+				F0C985091FFDC79400167171 /* DatePopUpViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +444,72 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0AB3A971F7DEC2400C203D0 /* ViewController.swift in Sources */,
-				F0AB3A951F7DEC2400C203D0 /* AppDelegate.swift in Sources */,
+				F0E6369A1F912C2D00B12410 /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				F0E636B01F92697800B12410 /* UIViewControllerX.swift in Sources */,
+				F0E636B31F92697800B12410 /* UIVisualEffectViewX.swift in Sources */,
+				F0AB3ADA1F7DF9E100C203D0 /* WeddingLandViewController.swift in Sources */,
+				F0AB3ADB1F7DF9E100C203D0 /* EditBirdViewController.swift in Sources */,
+				F09856901F7EF1560083AB38 /* FuneralEditViewController.swift in Sources */,
+				F0E636AE1F92697800B12410 /* UITextFieldX.swift in Sources */,
+				F0AB3AD81F7DF9E100C203D0 /* DoveViewController.swift in Sources */,
+				F0E636981F912C2D00B12410 /* IQTitleBarButtonItem.swift in Sources */,
+				F0E6368F1F912C2D00B12410 /* IQUIViewController+Additions.swift in Sources */,
+				F0E636961F912C2D00B12410 /* IQBarButtonItem.swift in Sources */,
+				F03DDF4E1FE8978E000EF244 /* DataManager.swift in Sources */,
+				F0AB3ACD1F7DF9E100C203D0 /* FrontBirdEgg.swift in Sources */,
+				F0E636B11F92697800B12410 /* UIViewX.swift in Sources */,
+				F0E636AB1F92697800B12410 /* UIImageViewX.swift in Sources */,
+				F0E6368E1F912C2D00B12410 /* IQUIView+Hierarchy.swift in Sources */,
+				F0AB3ACF1F7DF9E100C203D0 /* SunShineTime.swift in Sources */,
+				F0AB3ACB1F7DF9E100C203D0 /* NewBirdViewController.swift in Sources */,
+				F0AB3AE61F7DF9E100C203D0 /* Reachability.swift in Sources */,
+				F0AB3ADC1F7DF9E100C203D0 /* WeddingInfoViewController.swift in Sources */,
+				F0AB3AE71F7DF9E100C203D0 /* solar.swift in Sources */,
+				F0AB3AE11F7DF9E100C203D0 /* WUADCustomCellAll.swift in Sources */,
+				F03DDF4C1FE74C7C000EF244 /* WUADStructs.swift in Sources */,
+				F0AB3AD51F7DF9E100C203D0 /* venueMapViewController.swift in Sources */,
+				F077F4F21FD5A6C100D5A980 /* DatePopupViewController.swift in Sources */,
+				F0AB3AE81F7DF9E100C203D0 /* TrainingReleaseVC.swift in Sources */,
+				F0AB3AE41F7DF9E100C203D0 /* EventInfoViewController.swift in Sources */,
+				F0E636951F912C2D00B12410 /* IQTextView.swift in Sources */,
+				F0AB3ACA1F7DF9E100C203D0 /* BirdEggInvVC.swift in Sources */,
+				F0E636921F912C2D00B12410 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				F0AB3ADE1F7DF9E100C203D0 /* birdies.swift in Sources */,
+				F0AB3AD71F7DF9E100C203D0 /* trainschedcell.swift in Sources */,
+				F0E636911F912C2D00B12410 /* IQKeyboardManagerConstants.swift in Sources */,
+				F0E636AC1F92697800B12410 /* UILabelX.swift in Sources */,
+				F0AB3ACE1F7DF9E100C203D0 /* WeddingVenueInfoViewController.swift in Sources */,
+				F04628551F9E65CF00B96A1F /* HomeViewController.swift in Sources */,
+				F098568F1F7EF1560083AB38 /* FuneralLandViewController.swift in Sources */,
+				F0C9850B20054B8900167171 /* CalEventMaker.swift in Sources */,
+				F08B5BE21F81EEF7005A8563 /* AppDelegate.swift in Sources */,
+				F0E636901F912C2D00B12410 /* IQUIWindow+Hierarchy.swift in Sources */,
+				F0AB3AD31F7DF9E100C203D0 /* WeddingEditViewController.swift in Sources */,
+				F0E636941F912C2D00B12410 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				F098568E1F7EF1560083AB38 /* FuneralInfoViewController.swift in Sources */,
+				F0E636B21F92697800B12410 /* UIViewXRadialGradient.swift in Sources */,
+				F0AB3AC91F7DF9E100C203D0 /* EventInfoEditViewController.swift in Sources */,
+				F0E636991F912C2D00B12410 /* IQToolbar.swift in Sources */,
+				F0E6368C1F912C2D00B12410 /* IQUIScrollView+Additions.swift in Sources */,
+				F0AB3ADF1F7DF9E100C203D0 /* TrainReleaseSchedule.swift in Sources */,
+				F0AB3AD61F7DF9E100C203D0 /* DoveInventoryTable.swift in Sources */,
+				F0AB3AD21F7DF9E100C203D0 /* KIndexViewController.swift in Sources */,
+				F0AB3AE01F7DF9E100C203D0 /* WeddingEditVenueViewController.swift in Sources */,
+				F0AB3AD01F7DF9E100C203D0 /* birdwitheggs.swift in Sources */,
+				F0E6368D1F912C2D00B12410 /* IQUITextFieldView+Additions.swift in Sources */,
+				F0AB3ADD1F7DF9E100C203D0 /* WUADBirdsWithEggs.swift in Sources */,
+				F0E636931F912C2D00B12410 /* IQKeyboardManager.swift in Sources */,
+				F0C066B71FA152420096410D /* firstvc.swift in Sources */,
+				F0E636AA1F92697800B12410 /* UIButtonX.swift in Sources */,
+				F0AB3AD91F7DF9E100C203D0 /* EditEggViewController.swift in Sources */,
+				F0AB3AE91F7DF9E100C203D0 /* InventoryCell.swift in Sources */,
+				F0E6368B1F912C2D00B12410 /* IQNSArray+Sort.swift in Sources */,
+				F0E636971F912C2D00B12410 /* IQPreviousNextView.swift in Sources */,
+				F0E636AD1F92697800B12410 /* UISliderX.swift in Sources */,
+				F0AB3ACC1F7DF9E100C203D0 /* DoveEggsViewController.swift in Sources */,
+				F0E636AF1F92697800B12410 /* UIViewAnchorPoint.swift in Sources */,
+				F0AB3AE31F7DF9E100C203D0 /* EventLandViewController.swift in Sources */,
+				F0AB3AE21F7DF9E100C203D0 /* BirdCommentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +530,14 @@
 				F0AB3A9E1F7DEC2400C203D0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F0C985071FFDC79400167171 /* DatePopUpViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0C985081FFDC79400167171 /* Base */,
+			);
+			name = DatePopUpViewController.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -295,6 +675,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Compusult.DoveEventLog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

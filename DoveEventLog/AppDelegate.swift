@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  DoveEventLog
+//  DoveAndEventLog
 //
-//  Created by Dave Stucky on 9/28/17.
+//  Created by Dave Stucky on 9/27/17.
 //  Copyright © 2017 Dave Stucky. All rights reserved.
 //
 
@@ -15,7 +15,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        IQKeyboardManager.sharedManager().enable = true
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        var vc: UIViewController
+        if (UserDefaults.standard.value(forKey: "coName") as? String) == nil {
+            // show onboarding screen
+            vc = storyboard.instantiateViewController(withIdentifier: "setDefualts")
+        } else {
+            // show the main screen
+            vc = storyboard.instantiateInitialViewController()!
+        }
+
+        self.window?.rootViewController = vc
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
 
