@@ -46,8 +46,7 @@ class DatePopupViewController: UIViewController {
         } else {
             onSave?(formattedDate)
         }
-        
-        onSave?(formattedDate)
+    
         dismiss(animated: true)
     }
     

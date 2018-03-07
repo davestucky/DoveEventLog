@@ -12,12 +12,12 @@ import EventKit
 
 class CalEventMaker {
     
-    static var beginDate: String!
-    static var beginTime: String!
-    static var eventNarrative:String!
-    static var savedEventId : String = ""
+     var beginDate: String!
+     var beginTime: String!
+     var eventNarrative:String!
+     var savedEventId : String = ""
     
-    static func SetTime(beginDate:String, beginTime:String, eventNarrative:String) {
+     func SetTime(beginDate:String, beginTime:String, eventNarrative:String) {
             let eventStore = EKEventStore()
             let startDate = "\(beginDate) \( beginTime)"
             //string to date
@@ -36,7 +36,7 @@ class CalEventMaker {
             }
         }
     
-        static func createEvent(_ eventStore: EKEventStore, title: String, startDate: Date, endDate: Date) {
+         func createEvent(_ eventStore: EKEventStore, title: String, startDate: Date, endDate: Date) {
             let event = EKEvent(eventStore: eventStore)
             event.title = title
             event.startDate = startDate

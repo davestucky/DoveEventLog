@@ -54,7 +54,7 @@ class EventInfoEditViewController: UIViewController {
                 self.eventLocAddress.text = row["eventlocaddress"] as? String
                 self.eventLocCity.text = row["eventloccity"] as? String
                 self.eventLocState.text = row["eventstate"] as? String
-                self.eventDate.text = row["eventdate"] as? String
+                self.eventDate.text = row["eventdate"]  as? String
                 self.eventTime.text = row["eventtime"] as? String
                 self.eventComments.text = row["eventcomments"] as? String
                 self.eventLocDirector.text  = row["eventlocdirector"] as? String

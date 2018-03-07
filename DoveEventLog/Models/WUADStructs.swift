@@ -54,7 +54,7 @@ struct TblFuneralInfo: Codable {
 }
 
 struct TblEventsInfo: Codable {
-    let task:String = "event"
+    let task: String
     let eventkey: String
     let eventname: String
     let eventdate: String

@@ -20,8 +20,7 @@ class EventInfoViewController: UIViewController {
     @IBOutlet var eventTime: UITextField!
     @IBOutlet var eventComments: UITextView!
     @IBOutlet var eventLocDirector: UITextField!
-    
-    
+    var savedEventId = ""
     override func viewDidLoad() {
         
         super.viewDidLoad()
@@ -55,27 +54,31 @@ class EventInfoViewController: UIViewController {
         var request = URLRequest(url: url!)
         request.httpMethod = "POST"
         
-        let newEvent = TblEventsInfo(eventkey: eventName.text!, eventname: eventName.text!, eventdate: (eventDate?.text!)!, eventtime: (eventTime?.text!)!, locname: eventLocName.text!, locaddress: eventLocAddress.text!, loccity: eventLocCity.text!, locstate: eventLocState.text!, eventcontactname: eventLocDirector.text!, specialinstructions: eventComments.text!, eventcalID: savedEventId)
+        let newEvent = "task=event&eventkey=\(eventName.text!)&eventname=\(eventName.text!)&eventdate=\(eventDate.text!))&eventtime=\(eventTime.text!)&locname=\(eventLocName.text!)&locaddress=\(eventLocAddress.text!)&loccity=\(eventLocCity.text!)&locstate=\(eventLocState.text!)&eventcontactname=\(eventLocDirector.text!)&specialinstructions=\(eventComments.text!)&eventcalID=\(savedEventId)"
         
-        // newEvent.saveItem()
-        
-//        request.httpBody = newEvent.data(using: String.Encoding.utf8)
-//
-//        let task = URLSession.shared.dataTask(with: request, completionHandler: {
-//            data, response, error in
-//
-//            if error != nil {
-//                print("error=\(String(describing: error))")
-//                return
-//            }
-//
-//            print("response = \(String(describing: response))")
-//
-//            let responseString = NSString(data: data!, encoding: String.Encoding.utf8.rawValue)
-//            print("responseString = \(String(describing: responseString))")
-//        })
-//        task.resume()
+               
+        request.httpBody = newEvent.data(using: String.Encoding.utf8)
+
+        let task = URLSession.shared.dataTask(with: request, completionHandler: {
+            data, response, error in
+
+            if error != nil {
+                print("error=\(String(describing: error))")
+                return
+            }
+
+            print("response = \(String(describing: response))")
+
+            let responseString = NSString(data: data!, encoding: String.Encoding.utf8.rawValue)
+            print("responseString = \(String(describing: responseString))")
+        })
+        task.resume()
     }
+    
+    
+    
+    
+  
     
     
 

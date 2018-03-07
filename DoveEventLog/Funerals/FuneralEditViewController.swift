@@ -76,7 +76,7 @@ class FuneralEditViewController: UIViewController {
  
     @IBAction func FuneralSavePressed(_ sender: Any) {
         
-        let url = URL(string: "http://davestucky.c@objc om/funeralEdit.php")
+        let url = URL(string: "http://davestucky.com/funeralEdit.php")
         var request = URLRequest(url: url!)
         request.httpMethod = "POST"
         print (request.httpMethod as Any)

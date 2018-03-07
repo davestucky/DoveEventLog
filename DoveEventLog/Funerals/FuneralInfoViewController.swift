@@ -31,7 +31,7 @@ class FuneralInfoViewController: UIViewController {
     var onSave: ((_ data: String)->())?
     var savedEventId : String = ""
     
-    override func viewDidLoad() {
+   override func viewDidLoad() {
        
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -84,54 +84,9 @@ class FuneralInfoViewController: UIViewController {
         }
     }
     
-//    //datepicker start
-//    
-//    @IBAction func funeralDateSelected(_ sender: Any) {
-//        let datePicker = UIDatePicker()
-//        
-//        datePicker.datePickerMode = UIDatePickerMode.date
-//        
-//        datePicker.minimumDate = Date()
-//        funeralDate.inputView = datePicker
-//        
-//        datePicker.addTarget(self, action: #selector(FuneralInfoViewController.datePickerValueChanged(sender:)), for: UIControlEvents.valueChanged)
-//        
-//        
-//    }
-//    
-//    @objc func datePickerValueChanged(sender: UIDatePicker) {
-//        
-//        let dateFormatter = DateFormatter()
-//        
-//        dateFormatter.dateStyle = DateFormatter.Style.medium
-//        
-//        dateFormatter.timeStyle = DateFormatter.Style.none
-//        
-//        funeralDate.text = dateFormatter.string(from: sender.date)
-//    }
+
     
-//    @IBAction func funeralTimeSelected(_ sender: UITextField) {
-//        let datePicker = UIDatePicker()
-//        
-//        datePicker.datePickerMode = UIDatePickerMode.time
-//        datePicker.minuteInterval = 15
-//        funeralTime.inputView = datePicker
-//        
-//        datePicker.addTarget(self, action: #selector(FuneralInfoViewController.timePickerValueChanged(sender:)), for: UIControlEvents.valueChanged)
-//        
-//    }
-//    
-//    
-//    @objc func timePickerValueChanged(sender: UIDatePicker) {
-//        
-//        let timeFormatter = DateFormatter()
-//        
-//        timeFormatter.dateStyle = DateFormatter.Style.none
-//        
-//        timeFormatter.timeStyle = DateFormatter.Style.short
-//        
-//        funeralTime.text = timeFormatter.string(from: sender.date)
-//    }
+
 //    
 //    @IBAction func addEvent(_ sender: UIButton) {
 //        let eventStore = EKEventStore()
